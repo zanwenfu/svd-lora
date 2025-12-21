@@ -1,0 +1,19 @@
+{
+  "dataset": "wikitext-2-raw-v1",
+  "model_path": "./results_sparse_lora_wikitext2/final_sparse_lora_model",
+  "model_type": "sparse_lora_mlm_finetuned",
+  "eval_split": "test",
+  "eval_metrics": {
+    "eval_loss": 2.048107147216797,
+    "perplexity": 7.753211520076076,
+    "eval_model_preparation_time": 0.0009,
+    "eval_runtime": 17.9824,
+    "eval_samples_per_second": 122.397,
+    "eval_steps_per_second": 7.674,
+    "tokens_per_second": 15666.874277070916,
+    "ms_per_token": 0.06382894139027714,
+    "total_tokens": 281728
+  },
+  "eval_samples": 2201,
+  "device": "mps"
+}

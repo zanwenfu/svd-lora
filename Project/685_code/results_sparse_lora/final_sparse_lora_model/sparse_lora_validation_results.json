@@ -1,0 +1,40 @@
+{
+  "dataset": "sst2",
+  "model_path": "./results_sparse_lora/final_sparse_lora_model",
+  "model_type": "sparse_lora_finetuned",
+  "eval_split": "validation",
+  "eval_metrics": {
+    "eval_loss": 0.2704923450946808,
+    "eval_model_preparation_time": 0.0008,
+    "eval_accuracy": 0.8899082568807339,
+    "eval_precision": 0.8990825688073395,
+    "eval_recall": 0.8828828828828829,
+    "eval_f1": 0.8909090909090909,
+    "eval_precision_negative": 0.8807339449541285,
+    "eval_precision_positive": 0.8990825688073395,
+    "eval_recall_negative": 0.897196261682243,
+    "eval_recall_positive": 0.8828828828828829,
+    "eval_f1_negative": 0.8888888888888888,
+    "eval_f1_positive": 0.8909090909090909,
+    "eval_support_negative": 428,
+    "eval_support_positive": 444,
+    "eval_runtime": 1.1377,
+    "eval_samples_per_second": 766.457,
+    "eval_steps_per_second": 24.611,
+    "eval_samples_per_second_measured": 766.4586446339106,
+    "eval_latency_per_sample_sec": 0.0013047018348623853,
+    "eval_latency_per_sample_ms": 1.3047018348623853
+  },
+  "confusion_matrix": [
+    [
+      384,
+      44
+    ],
+    [
+      52,
+      392
+    ]
+  ],
+  "eval_samples": 872,
+  "device": "mps"
+}

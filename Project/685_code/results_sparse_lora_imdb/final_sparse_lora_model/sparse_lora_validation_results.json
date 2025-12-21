@@ -1,0 +1,37 @@
+{
+  "dataset": "imdb",
+  "model_path": "./results_sparse_lora_imdb/final_sparse_lora_model",
+  "model_type": "sparse_lora_finetuned",
+  "eval_split": "test",
+  "eval_metrics": {
+    "eval_loss": 0.34949859976768494,
+    "eval_model_preparation_time": 0.0009,
+    "eval_accuracy": 0.85684,
+    "eval_precision": 0.8533629089756793,
+    "eval_recall": 0.86176,
+    "eval_f1": 0.8575408987780122,
+    "eval_precision_negative": 0.8603862002100671,
+    "eval_precision_positive": 0.8533629089756793,
+    "eval_recall_negative": 0.85192,
+    "eval_recall_positive": 0.86176,
+    "eval_f1_negative": 0.8561321702777666,
+    "eval_f1_positive": 0.8575408987780122,
+    "eval_support_negative": 12500,
+    "eval_support_positive": 12500,
+    "eval_runtime": 66.0975,
+    "eval_samples_per_second": 378.229,
+    "eval_steps_per_second": 11.831
+  },
+  "confusion_matrix": [
+    [
+      10649,
+      1851
+    ],
+    [
+      1728,
+      10772
+    ]
+  ],
+  "eval_samples": 25000,
+  "device": "mps"
+}

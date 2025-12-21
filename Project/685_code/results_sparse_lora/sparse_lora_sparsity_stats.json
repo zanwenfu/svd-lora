@@ -1,0 +1,12 @@
+{
+  "dataset": "sst2",
+  "model_name": "distilbert-base-uncased",
+  "l1_lambda": 0.0001,
+  "prune_threshold": 0.01,
+  "lora_zero_params_before": 73728,
+  "lora_total_params_before": 147456,
+  "lora_sparsity_before": 0.5,
+  "lora_zero_params_after": 138975,
+  "lora_total_params_after": 147456,
+  "lora_sparsity_after": 0.9424845377604166
+}
