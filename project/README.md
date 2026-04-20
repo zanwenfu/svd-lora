@@ -1,4 +1,4 @@
-# HiRA, Sparse LoRA — Pushing the Efficiency Frontier of LoRA
+# SVD LoRA, HiRA, Sparse LoRA — Pushing the Efficiency Frontier of LoRA
 
 **SVD-Guided Adaptive Rank Compression + A Controlled Study of LoRA, Sparse LoRA, and HiRA**
 
