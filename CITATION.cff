@@ -8,7 +8,7 @@ authors:
     affiliation: "Duke University"
 date-released: 2025-12-01
 license: MIT
-repository-code: "https://github.com/zanwenfu/ece685d-deep-learning"
+repository-code: "https://github.com/zanwenfu/svd-lora"
 abstract: >-
   We systematically compare three representative low-rank adaptation methods
   (LoRA, Sparse LoRA, and HiRA) on a shared DistilBERT backbone under a
