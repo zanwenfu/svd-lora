@@ -4,7 +4,7 @@
 
 > Compressed adapters use **~30% of LoRA's parameters** while **matching or surpassing** baseline performance — including **+2.1 F1 on IMDB** over standard LoRA.
 
-This repository contains the implementation, experiments, results, and final report for a research project by Qinsi Wang, Yuhan Cheng, Zanwen Fu, and Hancheng Ye (Duke ECE). It has two contributions:
+This repository contains the implementation, experiments, results, and final report for a research survey on pushing the efficiency frontier of LoRA. It has two contributions:
 
 1. **A fair, apples-to-apples comparison** of three representative PEFT methods — standard LoRA, Sparse LoRA, and HiRA — fine-tuning a shared `distilbert-base-uncased` backbone on SST-2, IMDB, and WikiText-2 under a strictly matched training protocol.
 2. **A novel SVD-guided adaptive rank compression scheme** for LoRA: train at rank 8, truncate each adapter to the smallest rank retaining ≥ 90% of its Frobenius-energy spectrum, then fine-tune briefly in the reduced subspace. Average effective rank drops to **2.42** across attention projections.
