@@ -146,23 +146,6 @@ All runs use seed 42, batch size 16, learning rate 3e-4, 3 epochs, r=8, α=16, d
 
 ---
 
-## Citation
-
-```bibtex
-@techreport{wang2025pushinglora,
-  author      = {Zanwen Fu and Qinsi Wang and Yuhan Cheng and Hancheng Ye},
-  title       = {Pushing the Efficiency Frontier of LoRA: A Systematic Study
-                 and SVD-Guided Adaptive Rank Compression},
-  institution = {Duke University, Department of Electrical and Computer Engineering},
-  year        = {2025},
-  note        = {ECE685D Project Report}
-}
-```
-
-See also [CITATION.cff](CITATION.cff).
-
----
-
 ## License
 
 MIT — see [LICENSE](LICENSE).
