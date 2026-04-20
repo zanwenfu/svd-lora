@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this project or the SVD-guided adaptive rank compression method, please cite it as below."
+title: "Pushing the Efficiency Frontier of LoRA: A Systematic Study and SVD-Guided Adaptive Rank Compression"
+type: software
+authors:
+  - family-names: Fu
+    given-names: Zanwen
+    affiliation: "Duke University"
+date-released: 2025-12-01
+license: MIT
+repository-code: "https://github.com/zanwenfu/ece685d-deep-learning"
+abstract: >-
+  We systematically compare three representative low-rank adaptation methods
+  (LoRA, Sparse LoRA, and HiRA) on a shared DistilBERT backbone under a
+  controlled training protocol, then introduce an SVD-guided adaptive rank
+  compression scheme that trains a high-rank LoRA, applies per-module
+  truncated SVD at a fixed Frobenius-energy threshold, and fine-tunes in the
+  reduced subspace. The compressed adapters use roughly 30% of the original
+  parameters while matching or surpassing standard LoRA on SST-2 and IMDB.
+keywords:
+  - parameter-efficient fine-tuning
+  - LoRA
+  - low-rank adaptation
+  - SVD
+  - DistilBERT
+  - transformers

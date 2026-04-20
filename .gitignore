@@ -1,0 +1,54 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------- Virtual envs ----------
+.venv/
+venv/
+env/
+.conda/
+
+# ---------- ML / training artifacts ----------
+# We commit *small* final adapters + metrics in project/results/, but NOT
+# intermediate checkpoints or TensorBoard event logs.
+**/checkpoint-*/
+**/events.out.tfevents.*
+**/runs/
+**/logs/
+*.pt
+*.pth
+!project/results/**/adapter_model.safetensors
+
+# HuggingFace / Torch caches
+.cache/
+wandb/
+mlruns/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+
+# ---------- IDE ----------
+.idea/
+.vscode/
+*.swp
+*.swo
+.claude/
+
+# ---------- Course-material binary datasets ----------
+# The course/ assignments ship raw MNIST/KMNIST/FashionMNIST dumps (~50MB each).
+# Ignored so they don't pollute future commits; existing tracked copies are not removed.
+course/**/data/**/raw/
+course/**/data/**/*.ubyte
+course/**/data/**/*.gz
+
